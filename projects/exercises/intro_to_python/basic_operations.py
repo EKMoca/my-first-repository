@@ -5,8 +5,16 @@ full_name = 'Erik ' + 'Mojica'
 print(full_name)
 
 
-print(4936 % 10)
-print(((4936 % 100) - (4936 % 10)))
-print(((4936 % 1000) - (4936 % 100)))
-print(((4936 % 10000) - (4936 % 1000)))
+print('5' + '10')
+print(int('5') + int('10'))
 
+# foo = ['a', 'b', 'c'] 
+# print(foo[3])      # This should produce an error.
+
+'foo' == 'Foo' # This evaluates to false.
+
+# print(int('3.1415')) # Theoretically is supposed to convert string to int
+                        # but it creates an error instead.
+
+'12' < '9'
+print("This evaluates to true.")
